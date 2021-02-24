@@ -1,15 +1,14 @@
 # PyCubed Firmware 🔧 - Sequoia Branch
 
-low-level code implementing CircuitPython (port of Micropython)
+Low-level code implementing CircuitPython (port of Micropython)
 
-## [⭐ See the PyCubed Quick Start page for tutorials, design resources, and more!](https://www.notion.so/maholli/PyCubed-4cbfac7e9b684852a2ab2193bd485c4d)
+Firmware and bootloader configurations are kept here because each of the repositories has many submodules that arent necessary for the project as a whole (and we don't want anyone to accidentally clone them).
 
-<br>
-<br>
+Need to build the firmware? Check out Adafruit's guide (make sure you have the latest version of the ARM toolchain)
 
-# Help Wanted ❗
+Feel free to build on the [SSI fork of CircuitPython](https://github.com/stanford-ssi/circuitpython). It might also have the configuration that is stored in `firmware_build/` but when in doubt, use this repository.
 
-See the issues tab for a list of tasks in need of YOUR ☝ help!
+Need to build the bootloader? Check out the instructions in the README of the [SSI fork of UF2-SAMD1X](https://github.com/stanford-ssi/uf2-samdx1). It might also have the configuration that is stored in `bootloader_build/` but when in doubt, use this repository.
 
 <br>
 <br>
