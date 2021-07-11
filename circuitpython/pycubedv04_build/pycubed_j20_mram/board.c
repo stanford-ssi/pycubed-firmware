@@ -39,7 +39,7 @@ nvm_bytearray_obj_t bootcnt = {
         .type = &nvm_bytearray_type
             },
     .len = ( uint32_t) 8192,
-    .start_address = (uint8_t*) (0x00080000 - 8192)
+    .start_address = (uint8_t*) (FLASH_SIZE - 8192)
     };
 
 
